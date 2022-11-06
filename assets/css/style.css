@@ -1,0 +1,58 @@
+/*.card-header{
+		background-color: #007bff;
+		color:white;
+	}*/
+
+	.card{
+	box-shadow: 1px 1px 10px 2px #888888; 
+	margin-bottom: 35px;
+	
+	cursor: pointer;
+	border-radius: 0px!important; /* For removing bydefault rounded border */
+	width: auto;
+	}
+
+
+	/* For making minus and plus symbol by css  */
+ .collapsed i.fa.fa-plus:before{
+	 content: "\2b";
+	 font-weight: bold;
+	  font-weight: bold;
+
+      
+}
+/* if minus sign occure  */
+ i.fa.fa-plus:before{
+	 content: "\2212";
+	font-weight: bold;
+	  font-weight: bold;
+	  float: right;
+	   
+}
+i.fa.fa-plus{
+	float: right!important;
+}
+
+/*.accordion{
+	width: 700px!important;
+}*/
+
+/* Animation effect of toggle section */
+.collapsing {
+  
+  -webkit-transition-duration: 0.3s!important;
+  transition-duration: 0.3s!important;
+
+  -webkit-transition-timing-function: ease;
+  transition-timing-function: ease;
+  
+}
+
+/*
+* For making FAQ div full width
+*/
+/*div.accordion {
+    width: 100%!important;
+    max-width: 100%!important;
+}
+*/
